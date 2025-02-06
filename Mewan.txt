@@ -1,0 +1,38 @@
+user@debian:~$ cd documents
+user@debian:~/Documents$ mkdir tp_test
+user@debian:~/Documents$ cd tp_test
+user@debian:~/Documents/tp_test$ git init
+user@debian:~/Documents/tp_test$ git remote add origin https://github.com/sebmfgit/mathis.git
+user@debian:~/Documents/tp_test$ git config user.email "mewan.jouan@gmail.com"
+user@debian:~/Documents/tp_test$ git config user.name "M3WAN"
+user@debian:~/Documents/tp_test$ git clone "https://github.com/sebmfgit/mathis.git"
+user@debian:~/Documents/tp_test$ cd mathis
+user@debian:~/Documents/tp_test/mathis$ ls -a
+user@debian:~/Documents/tp_test/mathis$ git branch
+user@debian:~/Documents/tp_test/mathis$ git branch contact
+user@debian:~/Documents/tp_test/mathis$ git branch
+user@debian:~/Documents/tp_test/mathis$ git checkout contact
+user@debian:~/Documents/tp_test/mathis$ git push origin contact
+user@debian:~/Documents/tp_test/mathis$ git pull origin css
+user@debian:~/Documents/tp_test/mathis$ git pull origin index
+user@debian:~/Documents/tp_test/mathis$ touch contact.html
+user@debian:~/Documents/tp_test/mathis$ nano contact.html
+user@debian:~/Documents/tp_test/mathis$ git add contact.html
+user@debian:~/Documents/tp_test/mathis$ git add "contact.html"
+user@debian:~/Documents/tp_test/mathis$ git commit -m "Premier dépot de la page contact"
+user@debian:~/Documents/tp_test/mathis$ git config user.email "mewan.jouan@gmail.com"
+user@debian:~/Documents/tp_test/mathis$ git config user.name "M3WAN"
+user@debian:~/Documents/tp_test/mathis$ git commit -m "Premier dépot de la page contact"
+user@debian:~/Documents/tp_test/mathis$ git push -u origin contact
+user@debian:~/Documents/tp_test/mathis$ git checkout -b ressources
+user@debian:~/Documents/tp_test/mathis$ git push origin ressources
+user@debian:~/Documents/tp_test/mathis$ git checkout -b media
+user@debian:~/Documents/tp_test/mathis$ git push origin media
+user@debian:~/Documents/tp_test/mathis$ touch media.html
+user@debian:~/Documents/tp_test/mathis$ rm contact.html
+user@debian:~/Documents/tp_test/mathis$ rm media
+user@debian:~/Documents/tp_test/mathis$ rm test.txt
+user@debian:~/Documents/tp_test/mathis$ nano media.html 
+user@debian:~/Documents/tp_test/mathis$ git add media.html
+user@debian:~/Documents/tp_test/mathis$ git commit -m "Deuxième dépot de média"
+user@debian:~/Documents/tp_test/mathis$ git push -u origin media
