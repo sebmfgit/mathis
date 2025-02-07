@@ -1,37 +1,51 @@
-<!DOCTYPE hyml>
+<!DOCTYPE html>
 <html lang="fr">
 <head>
-    <title>Page de contact</title>
     <meta charset="UTF-8">
-    <meta name="description" content="">
-    <link rel="stylesheet" href="/style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Page de contact TP TEST</title>
+    <meta name="descrpition" content="Voici la page de contact du TPTEST en GIT">
+    <link rel="stylesheet" href="../CSS/stylec.css">
 </head>
 <body>
-    <a href="">Acceuil</a>
-    <a href="">Media</a>
-    <a href="">Contact</a>
+    <header>
+        <p>HEADER</p>
+    </header>
+
+
+    <nav>
+    <a href="../index.html">Acceuil</a>
+    <a href="media.html">Media</a>
+    <a href="contact.html">Contact</a>
+    </nav>
+
+
     
     <form>
         <h1>Contact</h1>
-        <p>N'hésitez pas à nous contacter</p>      
-        <label>Votre prénom</label>        
+           
         <input type="text" name="firstname"
         id="firstname" maxlength="200"
         placeholder="Prénom"><br> 
-        <label>Votre nom</label>     
+        
         <input type="text" name="lastname"
         id="lastname" maxlength="200"
         placeholder="Nom"><br>   
-        <label>Votre adresse e-mail</label>     
+             
         <input type="email" name="email" id="email"
-        maxlength="200" placeholder="e-mail"><br>    
-        <label>Votre téléphone</label>      
+        maxlength="200" placeholder="E-mail"><br>    
+      
         <input type="tel" name="num" id="num" 
         maxlength="10" minlength="10"
-        placeholder="téléphone"><br>
-        <label>Message</label>
+        placeholder="Téléphone"><br>
+        <label>Laissez nous un Message</label>
         <textarea placeholder="Veuillez écrire ici ..."></textarea><br>
         <button>Envoyer le message</button>
     </form>
+
+    <footer>
+        <p>© Copyright 2024</p>    
+    </footer>
+
 </body>
 </html>
